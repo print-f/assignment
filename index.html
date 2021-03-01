@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Subscription Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <h1>Subscribe Now</h1>
+            <h3>Stay Informed! Monthly tips, tricks and discounts.</h3>
+            <form>
+                <div class="input-field">
+                    <input class="inputname" type="text" placeholder="First & Last Name" id="name" />
+                    <span id="name_error" class="error d-none">Enter a valid name without digits.</span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email" id="email" />
+                    <span id="email_error" class="error d-none">Invaid Email</span>
+                </div>
+                <div class="input-field">
+                    <h3>Select Topic</h3>
+                    <label class="">
+                        <input class="checkmark" type="checkbox">Tips
+                    </label>
+                    <label class="">
+                        <input class="checkmark" type="checkbox">Tricks
+                    </label>
+                    <label class="">
+                        <input class="checkmark" type="checkbox">Discounts
+                    </label>
+                </div>
+                <div class="input-field">
+                     <label class="">
+                        <input class="checkmark" type="checkbox" checked="checked"><a href="#">I agree to all the terms and conditions</a>
+                    </label>
+                    <label class="">
+                        <input class="checkmark" type="checkbox" checked="checked"><a href="#">Privacy Policy</a>
+                    </label>
+                </div>
+                <button >Sign Up</button>
+                <!--<div class="dialog d-none">Fields can't be empty.</div>!-->
+            </form>
+        </div> 
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
